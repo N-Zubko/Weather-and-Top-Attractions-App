@@ -1,0 +1,215 @@
+
+  main {
+	margin: 0px auto 50px auto;
+	text-align: center;
+	height: 500px;
+	background-image: url("./balloons.jpg") ;
+	background-size: cover;
+  }
+
+  h1 {
+	padding-top: 50px;
+	font-family: Montserrat;
+	font-size: 46px;
+	font-weight: 300;
+	letter-spacing: 1.1px;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+  }
+
+  h4 {
+	font-family: Montserrat;
+	font-weight: 300;
+	letter-spacing: 1.1px;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+  }
+
+
+  h3 {
+	font-family: Work Sans;
+	font-weight: 500;
+	line-height: 1.29;
+	color: #ffffff;
+	padding-left: 5px
+  }
+
+  p {
+	font-family: Work Sans;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.36;
+	text-align: center;
+	color: #4a4a4a;
+	padding-left: 5px;
+  }
+
+  form {
+	margin-top: 50px;
+	height: 100px;
+  }
+
+  footer {
+	display: flex;
+	align-items: center;
+	height: 50px;
+  }
+
+
+  .container {
+	max-width: 900px;
+	margin: auto;
+	visibility: hidden;
+	background: linear-gradient(#00ced18c, #2576e08c);
+	padding-top: 15px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  section {
+	display: flex;
+    justify-content: center;
+  }
+
+  .weather h2 {
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 0.78;
+	text-align: center;
+	color: #4a4a4a;
+  }
+
+  .weather {
+	width: 200px;
+	padding: 20px;
+	box-shadow: 0 2px 4px 0 #00000042;
+	border-radius: 50px;
+  }
+
+  .weatherIcon {
+	max-width: 150px;
+	max-height: 150px;
+	align-self: center;
+  }
+
+  .venue {
+	width: 275px;
+	padding: 20px;
+	box-shadow: 0 2px 4px 0 #00000042;
+	border-radius: 50px;
+	margin-top: 20px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .venueimage {
+	margin-top: 20px;
+  }
+
+  .addimage {
+	width: 275px;
+	height: 200px;
+  }
+
+  #venues h2 {
+	font-family: Work Sans;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 0.77;
+	text-align: center;
+	padding-top: 5px;
+  }
+
+  #destination {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.9px;
+	text-align: center;
+	color: #ffffff;
+  }
+
+  .sectiontitle {
+	width: 300px;
+	align-self: center;
+  }
+
+  .sectiontitle h2 {
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 3.4px;
+	text-align: center;
+	color: #4a4a4a;
+  }
+
+  #venues {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	min-height: 250px;
+  }
+
+  #weather1 {
+	display: flex;
+	justify-content: space-around;
+	min-height: 150px;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+	align-self: center;
+  }
+
+  #city {
+	width: 286px;
+	height: 46px;
+	border-radius: 4px;
+	border: solid 2.5px #ffffff;
+	background-color: inherit;
+	opacity: 0.73;
+	font-family: Source Sans Pro;
+	font-size: 18px;
+	line-height: 1;
+	letter-spacing: 0.4px;
+	text-align: center;
+	color: #ffffff;
+  }
+
+  #button {
+	width: 140px;
+	height: 46px;
+	border-radius: 4px;
+	background-color: #27b7c1;
+	font-family: Source Sans Pro;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 0.94;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #ffffff;
+  }
+  
+  .weather-container {
+      max-width: 600px;
+  }
+
+  footer {
+	justify-content: center;
+  }
+
+  footer p, a {
+	color: #80808069;
+	font-size: 9px;
+	text-decoration: none;
+
+  }
